@@ -1,0 +1,1 @@
+var ಠ_ಠ498=21;console.log("tenho",ಠ_ಠ498);

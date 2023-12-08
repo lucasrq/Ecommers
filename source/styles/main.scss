@@ -1,0 +1,43 @@
+@use '../Config/reset.scss';
+@use '../Config/variaveis.scss';
+
+.text-destaque {
+    font-size: 24px;
+}
+
+@media screen and (min-width:variaveis.$tablet) {
+
+    .text-destaque {
+        font-size: 27px;
+
+    }
+}
+
+@media screen and (max-width:variaveis.$mobile) {
+
+    .text-destaque {
+        font-size: 21px;
+
+    }
+}
+
+
+.produto-main {
+    h5 {
+        color: rgb(0, 123, 255);
+        font-size: 22px;
+    }
+
+    .intrutor {
+        font-weight: bolder;
+    }
+
+    .preco {
+        color: blue;
+        font-size: 23px;
+    }
+
+    .sobre-produto {
+        font-size: 19px;
+    }
+}

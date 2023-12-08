@@ -8,7 +8,7 @@
   },
   "scripts": {
     "gulp": "gulp",
-    "sass": "sass ./source/styles/main.scss ./build/styles/main.css",
+    "sass": "sass ./source/styles/main.scss ./build/styles/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

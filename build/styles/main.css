@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.text-destaque {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 1023px) {
+  .text-destaque {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .text-destaque {
+    font-size: 21px;
+  }
+}
+.produto-main h5 {
+  color: rgb(0, 123, 255);
+  font-size: 22px;
+}
+.produto-main .intrutor {
+  font-weight: bolder;
+}
+.produto-main .preco {
+  color: blue;
+  font-size: 23px;
+}
+.produto-main .sobre-produto {
+  font-size: 19px;
+}
+
+/*# sourceMappingURL=main.css.map */

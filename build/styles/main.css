@@ -27,7 +27,7 @@
   font-weight: bolder;
 }
 .produto-main .preco {
-  color: blue;
+  color: rgb(1, 1, 238);
   font-size: 23px;
 }
 .produto-main .sobre-produto {

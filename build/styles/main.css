@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -33,5 +34,7 @@
 .produto-main .sobre-produto {
   font-size: 19px;
 }
+
+/* página sobre */
 
 /*# sourceMappingURL=main.css.map */

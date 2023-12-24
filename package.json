@@ -7,6 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
+    "grunt": "grunt",
     "gulp": "gulp",
     "sass": "sass ./source/styles/main.scss ./build/styles/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +15,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-sass": "^2.0.0",
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-obfuscate": "^0.2.9",
